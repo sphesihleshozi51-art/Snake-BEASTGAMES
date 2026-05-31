@@ -153,9 +153,11 @@
     <button class="dpad-btn" id="btn-down"  data-dir="DOWN">▼</button>
     <button class="dpad-btn" id="btn-right" data-dir="RIGHT">▶</button>
   </div>
-</div>
 
-<script>
+  <script>
+navigator.serviceWorker.register('sw.js');
+</script>
+  
 (() => {
   /* ══════════════════════════════════════
      CONFIG
